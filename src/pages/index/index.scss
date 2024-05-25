@@ -1,0 +1,41 @@
+.test-page{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.test-main{
+  width: 100vw;
+  padding-top: 34rpx;
+  //background: red;
+  //overflow: hidden;
+}
+.test-con{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.search-box{
+  width: 100%;
+  height: 92rpx;
+  padding: 16rpx 24rpx;
+  box-sizing: border-box;
+  .search-con{
+    width: 100%;
+    height: 100%;
+    padding: 0 24rpx;
+    background: #F5F5F5;
+    border-radius: 30rpx;
+    box-sizing: border-box;
+  }
+}
+.left-box{
+  box-sizing: border-box;
+  flex: 0 200rpx;
+  width: 200rpx;
+  height: 100%;
+}
+.right-box{
+  flex: 1;
+  height: 100%;
+}

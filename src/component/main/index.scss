@@ -1,0 +1,59 @@
+.scroll-main{
+  width: 100%;
+  height: 90%;
+  background: white;
+}
+.main-bg{
+  width: 100%;
+  height: 251rpx;
+}
+.electrical-box{
+
+}
+.main-electrical{
+  padding: 0 25rpx;
+}
+.electrical-title{
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  font-weight: 600;
+  font-size: 30rpx;
+  color: #222222;
+}
+.ricon{
+  width: 8rpx;
+  height: 14rpx;
+}
+.electrical-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150rpx;
+  height: 230rpx;
+}
+.electrical-pic{
+  width: 138rpx;
+  height: 138rpx;
+}
+.electrical-text{
+  padding-top: 22rpx;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #222222;
+}
+.at-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data-empty{
+  width: 100%;
+  line-height: 60rpx;
+  text-align: center;
+}

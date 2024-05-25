@@ -1,0 +1,34 @@
+.scroll-menu{
+  width: 100%;
+  height: 90%;
+  background: #F5F5F5;
+}
+.l-menu{
+  position: relative;
+  width: 200rpx;
+  height: 90rpx;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #222222;
+  line-height: 90rpx;
+  text-align: center;
+}
+.line-select{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10rpx;
+  height: 33rpx;
+  transform: translateY(-50%);
+  background: transparent;
+}
+.l-menu.active{
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #000000;
+  background: #FFFFFF;
+  .line-select{
+    background: #F4811F;
+  }
+}
+

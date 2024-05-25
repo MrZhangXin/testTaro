@@ -1,0 +1,21 @@
+.search-bar-con{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.search-icon{
+
+}
+.search-line{
+  margin: 0 16rpx;
+  width: 1rpx;
+  height: 34rpx;
+  background: #BBBBBB;
+}
+.search-input-box{
+  flex: 1;
+}
+.search-input{
+  width: 100%;
+  font-size: 24rpx;
+}
